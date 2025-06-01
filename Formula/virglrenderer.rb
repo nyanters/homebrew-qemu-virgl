@@ -8,7 +8,7 @@ class Virglrenderer < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "nyanters/qemu-virgl/libangle"
+  depends_on "knazarov/qemu-virgl/libangle"
   depends_on "nyanters/qemu-virgl/libepoxy-angle"
 
   # waiting for upstreaming of https://github.com/akihikodaki/virglrenderer/tree/macos
