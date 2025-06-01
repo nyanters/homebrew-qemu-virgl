@@ -15,7 +15,7 @@ class QemuVirgl < Formula
   depends_on "jpeg"
   depends_on "knazarov/qemu-virgl/libangle"
   depends_on "knazarov/qemu-virgl/libepoxy-angle"
-  depends_on "nyanters/qemu-virgl/virglrenderer"
+  depends_on "knazarov/qemu-virgl/virglrenderer"
   depends_on "libpng"
   depends_on "libssh"
   depends_on "libusb"
